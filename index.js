@@ -6,11 +6,11 @@ class Diary{
 }
 
 date = window.prompt("today is: ")
-entry =window.prompt("and i feel like: ")
+entry = window.prompt("and i feel like: ")
 
 dintry = new Diary(date, entry)
 fulldiary = []
-x = console.log(dintry)
+x = window.prompt(dintry)
 console.log(x)
 fulldiary.push(x)
-return fulldiary
+console.log(fulldiary)
